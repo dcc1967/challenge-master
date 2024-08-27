@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Encriptador de Texto</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="encriptador">
+			<h1>Cifrar y Descifrar</h1>
+			<textarea id="texto" placeholder="Escribe el texto a cifrar"></textarea>
+			<button id="cifrar">Cifrar</button>
+			<button id="descifrar">Descifrar</button>
+			<p id="validationMessage"></p>
+		</div>
+		<div class="resultado">
+			<div id="resultado"></div>
+			<button onclick="copiarTexto()">Copiar</button>
+		</div>
+	</div>
+	<footer>
+		<p>Creado por Daniel Cubides - 2024</p>
+	</footer>
+	<script src="proyecto.js"></script>
+</body>
+
+</html>
